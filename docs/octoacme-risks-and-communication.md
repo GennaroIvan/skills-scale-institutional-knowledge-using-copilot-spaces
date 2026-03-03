@@ -9,7 +9,7 @@ Maintain a simple table with:
 - Description
 - Impact (High/Med/Low)
 - Likelihood (High/Med/Low)
-- Owner
+- Owner (e.g., Project Manager, QA/Testing Lead, DevOps Engineer, Business Analyst)
 - Mitigation plan
 - Status
 
@@ -38,5 +38,8 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
+- Team-level -> **Scrum Master/Agile Facilitator** (blockers) -> **Project Manager** -> Product Lead -> Sponsor
+- Quality risks -> **QA/Testing Lead** -> **Project Manager** -> Product Lead
+- Infrastructure/deployment risks -> **DevOps Engineer** -> **Project Manager** -> Sponsor
+- Requirements/scope risks -> **Business Analyst** -> **Project Manager** -> Product Lead
 - For security incidents, follow the security incident runbook and notify Security on-call
