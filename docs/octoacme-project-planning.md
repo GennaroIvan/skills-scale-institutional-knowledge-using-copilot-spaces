@@ -10,11 +10,14 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 
 ## Activities
 1. Kickoff meeting with stakeholders and delivery team
-2. Create prioritized backlog with acceptance criteria
-3. Estimate scope (T-shirt sizing or story points)
-4. Define Definition of Done (DoD)
-5. Identify dependencies and integration points
-6. Create release plan and milestone map
+2. **Business Analyst** facilitates requirements gathering and documents user stories and acceptance criteria
+3. **UX Designer** conducts initial user research and produces wireframes or prototypes for planned features
+4. Create prioritized backlog with acceptance criteria
+5. Estimate scope (T-shirt sizing or story points)
+6. Define Definition of Done (DoD) — includes QA sign-off criteria with input from **QA/Testing Lead**
+7. Identify dependencies and integration points
+8. Create release plan and milestone map
+9. **DevOps Engineer** identifies infrastructure and pipeline requirements for the release
 
 ## Backlog Item Template
 - Title:
@@ -26,8 +29,8 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Related docs/links:
 
 ## Sprint / Iteration Planning
-- Timebox planning to agreed sprint length
-- Pull items that meet DoD and have clear acceptance criteria
+- Timebox planning to agreed sprint length — facilitated by **Scrum Master/Agile Facilitator**
+- Pull items that meet DoD and have clear acceptance criteria (reviewed with **Business Analyst** and **QA/Testing Lead**)
 - Ensure team capacity is respected
 
 ## Risk & Dependency Management
@@ -40,4 +43,6 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Initial test plan / QA approach drafted (owned by **QA/Testing Lead**)
+- [ ] UX wireframes or prototypes reviewed with stakeholders (owned by **UX Designer**)
+- [ ] Infrastructure and environment requirements confirmed (owned by **DevOps Engineer**)
